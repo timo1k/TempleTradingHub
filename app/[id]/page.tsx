@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 import React from "react";
-import { BackgroundGradient } from "../background-gradient";
-import { IconAppWindow } from "@tabler/icons-react";
+import { BackgroundGradient } from "../../components/background-gradient";
 import Image from "next/image";
 
 interface Project {
@@ -52,6 +51,7 @@ export default function Page({ params }: any) {
     </div>
   );
 }
+
 function BackgroundGradientDemo({ project }: { project: Project }) {
   return (
     <div className="max-w-sm rounded-[22px] overflow-hidden">

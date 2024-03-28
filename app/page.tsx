@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Input } from "@chakra-ui/react";
-import { HoverEffect } from "./card-hover-effect";
-import { TypewriterEffectSmooth } from "./typewriter-effect";
+import { HoverEffect } from "../components/card-hover-effect";
+import { TypewriterEffectSmooth } from "../components/typewriter-effect";
 
 interface Project {
   title: string;
